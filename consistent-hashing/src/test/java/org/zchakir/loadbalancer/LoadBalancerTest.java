@@ -10,7 +10,6 @@ public class LoadBalancerTest {
     public static void main(String[] args) {
         // Create a new load balancer
         LoadBalancer loadBalancer = new LoadBalancer(new ArrayList<>());
-
         // Add some servers to the load balancer
         loadBalancer.addServer("server1");
         loadBalancer.addServer("server2");
